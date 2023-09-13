@@ -24,15 +24,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $nombre <$email>";
 
     // Envía el correo electrónico
-    if (mail($destinatario, $asunto, $mensajeCompleto, $headers)) {
-        // Envío exitoso, redirige de vuelta a la página de confirmación
-        header("Location: ../index.html?enviado=exito");
-    } else {
-        // Error en el envío, redirige con un mensaje de error
-        header("Location: ../index.html?enviado=error");
-    }
-} else {
-    // Si se accede a este script directamente sin enviar el formulario, redirige a la página de inicio.
-    header("Location: ../index.html");
+    mail($destinatario, $asunto, $mensajeCompleto, $headers)
+    echo "¡El formulario se ha enviado con éxito!";
+
 }
 ?>
