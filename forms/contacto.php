@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $headers = "From: $nombre <$email>";
 
     // Envía el correo electrónico
-    mail($destinatario, $asunto, $mensajeCompleto, $headers)
+    mail($destinatario, $asunto, $mensajeCompleto, $headers);
     echo "¡El formulario se ha enviado con éxito!";
 
 }
