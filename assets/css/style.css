@@ -1864,33 +1864,33 @@ section {
 
 .contacticon {
   position:fixed;
-  width:60px;
-  height:60px;
+  /* width:60px; */
+  /* height:60px; */
   bottom:25px;
   right:10px;
   background-color:#3284f1;
   color:#FFF;
   border-radius:15px;
   text-align:center;
-  font-size:30px;
+  font-size:20px;
   z-index:100;
-  margin-bottom: 3%;
+  margin-bottom: 30%;
 }
 
 @media (max-width: 768px) {
   .contacticon {
     position:fixed;
-  width:60px;
-  height:60px;
+  /* width:60px; */
+  /* height:60px; */
   bottom:25px;
   right:10px;
   background-color:#3284f1;
-  color:#FFF;
+  color:#0e0202;
   border-radius:15px;
   text-align:center;
-  font-size:30px;
+  font-size:20px;
   z-index:100;
-  margin-bottom: 3%;
+  margin-bottom: 30%;
   }
 
 }
@@ -1898,17 +1898,17 @@ section {
 @media (max-width: 992px) {
   .contacticon {
     position:fixed;
-  width:60px;
-  height:60px;
+  /* width:60px; */
+  /* height:60px; */
   bottom:25px;
   right:10px;
   background-color:#3284f1;
   color:#FFF;
   border-radius:15px;
   text-align:center;
-  font-size:30px;
+  font-size:20px;
   z-index:100;
-  margin-bottom: 3%;
+  margin-bottom: 50%;
   }
 
 }
@@ -1916,3 +1916,23 @@ section {
 .contacticon-icon {
   margin-top:14px;
 }
+
+
+#floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#floating-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
